@@ -21,9 +21,61 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+#- aeson
+#- amazonka
+#- amazonka-autoscaling
+#- amazonka-core
+#- amazonka-ec2
+#- bytestring
+#- base64-bytestring
+#- conduit-combinators
+#- exceptions
+#- lens
+#- lens-aeson
+#- MissingH
+#- mtl
+#- optparse-generic
+#- text
+#- transformers
+#- yaml  
 
 library:
   source-dirs: src
+  default-extensions: ApplicativeDo
+                    , BangPatterns
+                    , ConstraintKinds
+                    , DataKinds
+                    , DefaultSignatures
+                    , DeriveFoldable
+                    , DeriveFunctor
+                    , DeriveGeneric
+                    , DeriveLift
+                    , DeriveTraversable
+                    , EmptyCase
+                    , ExistentialQuantification
+                    , FlexibleContexts
+                    , FlexibleInstances
+                    , FunctionalDependencies
+                    , GADTs
+                    , GeneralizedNewtypeDeriving
+                    , InstanceSigs
+                    , KindSignatures
+                    , LambdaCase
+                    , MultiParamTypeClasses
+                    , MultiWayIf
+                    , NamedFieldPuns
+                    , OverloadedStrings
+                    , PatternSynonyms
+                    , RankNTypes
+                    , ScopedTypeVariables
+                    , StandaloneDeriving
+                    , TupleSections
+                    , TypeApplications
+                    , TypeFamilies
+                    , TypeFamilyDependencies
+                    , TypeOperators
+                    , TemplateHaskell
+                    , QuasiQuotes
 
 executables:
   HaRL-exe:
